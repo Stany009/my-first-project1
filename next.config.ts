@@ -1,7 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+// next.config.js (project root)
+module.exports = {
+  output: "export",
+  // if you have a basePath or assetPrefix, configure them here
 };
-
-export default nextConfig;
